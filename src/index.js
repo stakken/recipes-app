@@ -4,6 +4,8 @@ import Main from "./Main";
 import "./index.css";
  
 ReactDOM.render(
-  <Main/>, 
+  <React.StrictMode>
+    <Main/>
+  </React.StrictMode>,
   document.getElementById("root")
 );
