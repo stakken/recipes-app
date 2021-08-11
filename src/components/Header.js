@@ -1,8 +1,6 @@
 import './Header.css'
 import {
-    Route,
     NavLink,
-    HashRouter
   } from "react-router-dom"
 
 
